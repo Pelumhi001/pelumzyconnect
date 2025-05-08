@@ -28,7 +28,7 @@ onAuthStateChanged(auth, (user) => {
 document.getElementById("logoutBtn").addEventListener("click", () => {
   signOut(auth).then(() => {
     alert("Logged out successfully.");
-    window.location.href = "login.html";
+    window.location.href = "pelumzyconnect.html";
   }).catch((error) => {
     alert("Logout error: " + error.message);
   });
